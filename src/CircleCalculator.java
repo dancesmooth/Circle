@@ -12,7 +12,7 @@ public class CircleCalculator {
 			boolean b = true;
 			
 			// step 1: input radius and check.
-			System.out.print("Enter the radius of the cirlce");
+			System.out.println("Enter the radius of the circle");
 			
 			/*We are storing the entered radius in double
      		 * because a user can enter radius in decimals
@@ -24,14 +24,14 @@ public class CircleCalculator {
 			try {
 				radius = Double.parseDouble(s);
 			} catch (Exception e) {
-				System.out.println("invalid value for radius.");
+				System.out.println("Invalid value for radius.");
 				b = false;
 			}
 			
 			if(b == true){
 				//check if radius is not negative 
 				if(radius < 0){
-					System.out.println("Radius must be positve.");
+					System.out.println("Radius must be positive.");
 					b = false;
 				}
 				
@@ -40,12 +40,12 @@ public class CircleCalculator {
 			double height = 0.0;
 			// step 2: input height and check.
 			if (b == true) {
-				System.out.println("What is the height of the cylidner?");
+				System.out.println("What is the height of the cylinder?");
 				String d = ab.nextLine();
 				try {
 					height = Double.parseDouble(d);
 				} catch (Exception e) {
-					System.out.println("invalid value for height.");
+					System.out.println("Invalid value for height.");
 					b = false;
 				}
 				
@@ -70,7 +70,7 @@ public class CircleCalculator {
 			}	
 			
 			// step 4: ask user to re-try.
-			System.out.println("try again?");
+			System.out.println("Try again?");
 	
 			ans = ab.nextLine();
 			
