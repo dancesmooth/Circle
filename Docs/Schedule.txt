@@ -1,0 +1,8 @@
+
+October 14, 2017: Define problem, brainstorm ideas to solve problem 
+October 17, 2017: Create and algorithm and design code; define testcases
+October 18, 2017: Install Eclipse and Github, Implement the code in Java
+October 20, 2017: Test and debug code
+October 23, 2017: Finish and submit entire code and planning material
+
+

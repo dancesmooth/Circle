@@ -1,0 +1,24 @@
+Requirement:  Find the volume/surface area/area of a 3D and 2D shape
+
+Product: A program that takes user input of a radius and height to give the surface area and the volume of a cylinder and its corresponding circle.
+
+
+
+Input: 
+What is the radius of the circle and what is the height of the cylinder based on the circle?
+
+Enter radius of circle: x
+
+Enter height of cylinder: y
+
+
+
+Output: 
+Area of a Circle: 
+
+Volume of a cylinder: 
+
+Surface area of a cylinder:  
+
+
+

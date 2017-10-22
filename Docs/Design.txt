@@ -1,0 +1,83 @@
+Language: Java
+System: Windows
+Source control: Github
+
+
+
+
+
+
+
+Classes:
+
+
+Class MyCalculator
+{
+ public static void main(String args[])
+   {
+
+	Do {
+
+      		Scanner sc = new Scanner(System.in);
+
+      		Print: Enter the radius
+   
+      		/*We are storing the entered radius in double
+      		 * because a user can enter radius in decimals
+       		*/
+
+     		double radius = sc(user input)
+
+       		Print: Enter the height
+   
+      		/*We are storing the entered height in double
+       		* because a user can enter height in decimals
+       		*/
+
+      		double height = sc(user input)
+
+
+		Check radius and height: They must not be negative.
+
+
+		Cylinder c = new Cylinder(radius, height)
+		Output volume and area of c.
+
+ 		Print: Do you want to try again?
+		string ans = sc(user input)
+		while ans = y  
+	}
+}
+
+
+Base class:
+class circle
+{ 
+  double radius;
+  
+  double getArea() {
+return pi*radius*radius;
+  }
+
+
+
+
+  }
+  
+Subclass:
+class cylinder extends circle
+  {
+    
+       double height; 
+
+      double getArea() {
+return (2 * pi * radius * height) + 2 * super.getArea();
+       }
+
+double getVolumn() {
+return super.getArea() * height;
+  }
+}
+
+
+
